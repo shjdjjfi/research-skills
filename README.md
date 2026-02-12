@@ -7,6 +7,7 @@ A collection of Claude Code skills for academic research workflows.
 | Skill | Description | Trigger |
 |-------|-------------|---------|
 | [medical-imaging-review](./medical-imaging-review/) | Write comprehensive literature reviews for medical imaging AI | `/medical-imaging-review`, "review paper", "survey", "综述" |
+| [codex-medical-review](./codex-medical-review/) | Auto-generate arXiv-grounded medical AI review markdown drafts for Codex | `python scripts/generate_review.py --topic "..."` |
 | [paper-slide-deck](./paper-slide-deck/) | Generate professional slides from academic papers with auto figure extraction | `/paper-slide-deck paper.pdf` |
 | [research-proposal](./research-proposal/) | Generate PhD research proposals with Nature Reviews-style academic writing | `/research-proposal`, "research proposal", "PhD proposal", "研究计划" |
 
@@ -17,6 +18,9 @@ Copy the desired skill folder to your Claude Code skills directory:
 ```bash
 # For medical-imaging-review
 cp -r medical-imaging-review ~/.claude/skills/
+
+# For codex-medical-review
+cp -r codex-medical-review ~/.claude/skills/
 
 # For paper-slide-deck
 cp -r paper-slide-deck ~/.claude/skills/
@@ -29,6 +33,7 @@ Or copy to project-local skills:
 
 ```bash
 cp -r medical-imaging-review .agents/skills/
+cp -r codex-medical-review .agents/skills/
 cp -r paper-slide-deck .agents/skills/
 cp -r research-proposal .agents/skills/
 ```

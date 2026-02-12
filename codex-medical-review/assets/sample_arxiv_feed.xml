@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title>arXiv Query: all:medical image segmentation</title>
+  <id>http://arxiv.org/api/q</id>
+  <updated>2026-01-01T00:00:00Z</updated>
+  <entry>
+    <id>http://arxiv.org/abs/2501.01234v1</id>
+    <updated>2025-01-05T00:00:00Z</updated>
+    <published>2025-01-05T00:00:00Z</published>
+    <title>Sample Medical Segmentation Foundation Model</title>
+    <summary>Sample summary for offline testing only.</summary>
+    <author><name>Jane Doe</name></author>
+    <author><name>John Smith</name></author>
+    <link href="http://arxiv.org/abs/2501.01234v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2501.01234v1" rel="related" type="application/pdf"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.05678v2</id>
+    <updated>2024-06-10T00:00:00Z</updated>
+    <published>2024-06-10T00:00:00Z</published>
+    <title>Benchmarking Robustness in Clinical Imaging AI</title>
+    <summary>Another sample summary for offline testing only.</summary>
+    <author><name>Alice Lee</name></author>
+    <author><name>Bob Wang</name></author>
+    <author><name>Carol Chen</name></author>
+    <link href="http://arxiv.org/abs/2406.05678v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2406.05678v2" rel="related" type="application/pdf"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
